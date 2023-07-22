@@ -64,13 +64,21 @@ export default {
             <div class="crew-list-item" v-for="pirata in arrayMaiuscolo">{{pirata}}</div>
         </div>
     </div>
+    <div class="contenitore-sass">
+      <div class="test">
+        <div class="sotto-classe sotto-classe-1">test1</div>
+      </div>
+      <div class="test">
+        <div class="sotto-classe sotto-classe-2">test2</div>
+      </div>
+    </div>
     <footer>
         <p><a href="https://it.freepik.com/vettori-gratuito/nave-pirata-o-galeone-con-teschio-umano-e-ossa-incrociate-su-vele-nere_4393923.htm#query=disegno%20pirati%20notte&position=0&from_view=search&track=ais">Immagine di vectorpouch</a> su Freepik</p>
     </footer>
   </body>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 body {
   background-image: url('sfondo.jpg');
   background-size: cover;
@@ -110,7 +118,7 @@ h1, h2, h3, p {
   color: #eedd82;
 }
 h1 {
-  font-size: 28px;
+  font-size: 48px;
 }
 h2 {
   font-size: 36px;
@@ -175,6 +183,21 @@ select {
 }
 .crew-list-item {
   margin-bottom: 5px;
+}
+.contenitore-sass {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  .test{
+    margin: auto;
+    width: 100px;
+    .sotto-classe{
+      font-size: 20px;
+      &.sotto-classe-1{ color:red; }
+      &.sotto-classe-2{ color:green; }
+    }
+  }
 }
 </style>
 

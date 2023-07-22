@@ -199,5 +199,21 @@ select {
     }
   }
 }
+ /* scrittura css */
+.contenitore-sass {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.contenitore-sass .test{
+    margin: auto;
+    width: 100px;
+}
+.contenitore-sass .test .sotto-classe{
+      font-size: 20px;
+}
+.contenitore-sass .test .sotto-classe.sotto-classe-1{ color:red; }
+.contenitore-sass .test .sotto-classe.sotto-classe-2{ color:green; }
 </style>
 

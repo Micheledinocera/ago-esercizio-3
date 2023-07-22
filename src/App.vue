@@ -4,6 +4,7 @@ export default {
     return {
       array: [], 
       pirata: "",
+      indice: 0
     }
   },
 

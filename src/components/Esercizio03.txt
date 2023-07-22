@@ -1,0 +1,11 @@
+Esercizio03
+
+1) Input text 
+2) pulsante che aggiunge in array e stampa a video 
+3) Select di cancellazione: ma tante option di cancellazione quanti sono gli elementi dell'array.
+4) La lista stampata a video gli elementi devono risultare scritti tutto in maiuscolo (variabile a parte; no modifica array originale).
+5) Se il vettore ha più di 3 elementi, il bottone "aggiungi" diventa giallo.
+
+HELP: 
+<option v-for="elemento in array" :value="elemento">{elemento}</option>
+Funzione .map (per il punto 4)

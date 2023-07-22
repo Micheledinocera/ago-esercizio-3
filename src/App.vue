@@ -118,7 +118,7 @@ h1, h2, h3, p {
   color: #eedd82;
 }
 h1 {
-  font-size: 48px;
+  font-size: 28px;
 }
 h2 {
   font-size: 36px;
